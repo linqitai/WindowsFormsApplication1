@@ -1,0 +1,27 @@
+<body>
+<name> 姓名  RSA加密密钥见文档</name>必填
+<sex>性别</sex>
+<nation>民族（文字）</nation>
+<credentialsNumber>证件号 RSA加密 密钥见文档</credentialsNumber>必填
+<credentialsType>证件类型  证件类型(1居民身份证、2军官证、3武警警官证、4士兵证、5护照、6港澳同胞回乡证、7台湾居民来往大陆通行证、8外国人居留证、9其他)(不能为空)</credentialsType>必填
+<address>户籍地址</address>
+<issuingAuthority>签发机关</issuingAuthority>
+<expiryDate>有效期</expiryDate>
+<company>工作单位</company>
+<tempAddress>暂住地</tempAddress>
+<contactInformation>联系方式（可以是手机或座机）</contactInformation>
+<collectionSite>采集点</collectionSite>必填
+<collectionMode>采集模式(1:公安窗口、2:警务通、3:其他窗口)(不能为空)</collectionMode>必填
+<collectionType>采集类型(0:自动读取、1:人员录入)(不能为空)</collectionType>
+<credentialsPhotoType>证件照片类型(1:身份证人脸照、2:证件照、3:模版照)(不能为空)</credentialsPhotoType>必填
+<credentialsPhoto>证件照 BASE64值</credentialsPhoto>必填
+<photograph>现场照 BASE64值</photograph>必填
+<operator>操作人员(提交信息的那个人员的登录名)</operator>
+<submissionType>提交类型(0:正常提交、1:强制提交)(不能为空)</submissionType>必填
+<personnelID>人员信息ID</personnelID>
+<credentialsPhotoID>证件照片ID</credentialsPhotoID>
+<photographID>现场照片ID</photographID>
+<personnelType>人员类型</personnelType>
+<community>居委会编号（代码）</community>必填
+<brithday>出生日期 yyyy-MM-dd</brithday>
+</body>
